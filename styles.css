@@ -11,10 +11,10 @@
   --ink: #111111;
   --ink-soft: #333638;
   --muted: #5c6266;
-  --blue: #0058a3;
-  --blue-deep: #003d75;
-  --blue-tint: #e6f0f9;
-  --yellow: #ffdb00;
+  --blue: #0051ba;
+  --blue-deep: #003b88;
+  --blue-tint: #e6effa;
+  --yellow: #ffda1a;
   --yellow-soft: #ffe566;
   --line: rgba(17, 17, 17, 0.14);
   --line-soft: rgba(17, 17, 17, 0.08);
@@ -246,6 +246,12 @@ main {
   color: var(--ink);
   letter-spacing: -0.01em;
   line-height: 1.1;
+}
+
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  flex: none;
 }
 
 .brand-name {
@@ -511,8 +517,8 @@ main {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(120% 90% at 85% 10%, rgba(255, 219, 0, 0.24), transparent 55%),
-    linear-gradient(160deg, #0a67b8 0%, #0058a3 45%, #003d75 100%);
+    radial-gradient(120% 90% at 85% 10%, rgba(255, 218, 26, 0.24), transparent 55%),
+    linear-gradient(160deg, #0a5fd0 0%, #0051ba 45%, #003b88 100%);
 }
 
 .surface-stone::before {
