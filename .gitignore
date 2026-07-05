@@ -1,0 +1,4 @@
+# source photos — only the compressed .webp versions are deployed
+img/*.jpg
+img/*.jpeg
+img/*.png
