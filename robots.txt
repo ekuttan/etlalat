@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ekuttan.github.io/etlalat/sitemap.xml
+Sitemap: https://etlalat.pages.dev/sitemap.xml
