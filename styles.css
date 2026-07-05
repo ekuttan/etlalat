@@ -249,7 +249,9 @@ main {
 }
 
 .brand-name {
-  font-size: 0.98rem;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .brand-name small {
