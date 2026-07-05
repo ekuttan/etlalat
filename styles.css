@@ -38,7 +38,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 124px;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -255,8 +255,8 @@ main {
 }
 
 .brand-wordmark {
-  height: 90px;
-  width: auto;
+  width: 180px;
+  height: auto;
   flex: none;
 }
 
@@ -1367,12 +1367,6 @@ main {
   }
 }
 
-@media (max-width: 1000px) and (min-width: 761px) {
-  .brand-wordmark {
-    height: 60px;
-  }
-}
-
 @media (max-width: 1000px) {
   .tile-wide,
   .tile-tall,
@@ -1435,7 +1429,7 @@ main {
   }
 
   .brand-wordmark {
-    height: 48px;
+    width: 150px;
   }
 
   .tile-wide,
